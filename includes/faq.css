@@ -1,0 +1,32 @@
+/*  CSS Document                             */
+/*  Written by Chris Converse for Lynda.com  */
+
+@charset "UTF-8";
+
+body {font-family: "Trebuchet MS"; }
+p { margin: 0px; }
+a { color: #bf572c; }
+a:hover { color: #000; }
+
+.faq_container {
+	margin: 20px 0px 0px 20px;
+	padding: 0px 0px 5px 0px;
+	width: 700px;
+	background: url(../images/corkboard_tile.jpg) 0px 0px;
+}
+
+.faq {
+	margin: 0px 15px 35px 15px;
+	padding: 35px 15px 15px 70px;
+	position: relative;
+	background: #fff url(../images/note_top.jpg) no-repeat 0px 0px;
+}
+
+.faq_question { margin: 0px; padding: 0px 0px 5px 0px; display: inline-block; cursor: help; font-weight: bold; color: #1f4f71; }
+
+.faq_answer_container { height: 0px; overflow: hidden; padding: 0px; color: #bf572c; }
+.faq_answer { margin: 0px; padding: 0px; color: #bf572c; font-weight: normal; }
+
+.faq .letter_q { width: 40px; height: 50px; position: absolute; top: 20px; left: 25px; background: url(../images/q.png) 0px 0px; }
+.faq .letter_a { width: 43px; height: 40px; position: absolute; top: 42px; left: 23px; background: url(../images/a.png) 0px 0px; display: none;}
+
